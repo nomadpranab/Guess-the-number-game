@@ -3,14 +3,50 @@
 <head>
 <title>Page Title</title>
 <script>
+    //initialise a variable
     let a=34;
     console.log(a);
+    
+//-------------------------------------------
+//how to write a function
+function hello()
+{
+    console.log("Happy Republic Day");
+}
+//--------------------------------------------
+//dictionary in java script
+
+let obj={
+    m:45,
+    n:75
+}
+//--------------------------------------------
+
+//we can also add a function in dictionary,
+let obj1={
+    m1:45,
+    n1:75,
+    func: function abcd(number){
+        console.log("The number you passed through abcd is"+number);
+    }
+}
+//---------------------------------------------
+//how we can add alert and eventlistener
+
+document.addEventListener("click",function run(){
+    console.log("Clicked");
+    //alert("You have clicked once"); //this is alert
+    let c=confirm("Are you sure"); //this is confirm alert which returns either true or false
+    console.log(c); // this prints true /false 
+})
+
+
 </script>
 </head>
 <body>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+<h1>Habibi!</h1>
+<p>This is a parindey --></p>
 
 </body>
 </html>
