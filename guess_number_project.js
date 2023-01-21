@@ -3,7 +3,7 @@
 
 let x = Math.random() * 100;
 x = Math.floor(x);
-console.log(x)
+// console.log(x)
 let y=10;
 
 function start()
