@@ -1,15 +1,27 @@
 <!DOCTYPE html>
 <head>
     <title>Guess a number</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>
-        Welcome to the guessing game 
-        
-    </p>
-    <div>
-        <button onclick="start()">Start the game</button>
+    <div id="bor">
+        <p id="para1">
+            <strong><u>Welcome to the guessing game </u></strong>
+            <br>
+            {Guess a number between 1-100}
+            
+        </p>
+        <p id="para2">
+    
+            You have 10 chances in total
+    
+        </p>
+        <div id="button">
+            <button type="button" class="btn btn-dark" onclick="start()">Start Here</button>
+        </div>
     </div>
+    
     
 </body>
 <script src="guess_number_project.js"></script>  

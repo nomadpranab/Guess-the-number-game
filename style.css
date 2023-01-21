@@ -1,0 +1,28 @@
+#para1{
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    font-weight: 700;
+}
+#para2{
+    margin-left: 5%;
+    margin-bottom: 3%;
+    font-weight: 700;
+
+}
+.btn{
+    border: 2px solid black;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    color: rgb(255, 255, 255);
+    font-style:normal;
+    background-color: black;
+    
+}
+#bor{
+    border: 2px black solid;
+    height: 40vh;
+    width: 40vw;
+    margin: 10%;
+    
+}
