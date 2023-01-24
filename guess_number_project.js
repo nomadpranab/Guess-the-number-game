@@ -1,10 +1,10 @@
-//guess a number between 1 and 100
+//guess a number between 1 and 10
 
 
-let x = Math.random() * 100;
+let x = Math.random() * 10;
 x = Math.floor(x);
 // console.log(x)
-let y=10;
+let y=4;
 
 function start()
 {
@@ -13,7 +13,7 @@ function start()
     const input=parseInt(prompt("Enter your lucky number"));
         if(input==x)
         {
-        document.write("You won");
+        document.write("You won for the first time in life ! Congrats");
         break;
         }
         else{  
