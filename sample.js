@@ -5,10 +5,15 @@ var eventEmitter = new events.EventEmitter();
 var nothing = function () {
   console.log('I hear nothing!');
 }
+var abc=function(){
+  console.log('Hello world');
+}
 //Assign the event handler to an event:
 //eventEmitter.addListener('scream', myEventHandler);
 eventEmitter.on('scream', nothing);
+eventEmitter.on('hello',abc);
 
 //Fire the 'scream' event:
 eventEmitter.emit('scream');
+eventEmitter.emit('hello');
 //eventEmitter.emit('scream');
