@@ -11,7 +11,7 @@ var abc=function(){
 //Assign the event handler to an event:
 //eventEmitter.addListener('scream', myEventHandler);
 eventEmitter.on('scream', nothing);
-eventEmitter.on('hello',abc);
+eventEmitter.addListener('hello',abc);
 
 //Fire the 'scream' event:
 eventEmitter.emit('scream');
